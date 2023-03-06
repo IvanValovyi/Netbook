@@ -9,7 +9,28 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    colors: {
+      white: "#FFFFFF",
+      black: {
+        100: "#2B2B39",
+        200: "#20202D",
+        300: "#0A093D",
+      },
+      darkBlue: "#217BF4",
+      lightBlue: "#E5F0FD",
+      darkGray: "#2B2B39",
+      lightGray: "#656464",
+    },
+    container: {
+      padding: "15px",
+      center: true,
+    },
+    extend: {
+      backgroundImage: {
+        primaryGradient: "linear-gradient(#FFFFFF, #D4E7FE)",
+        secondaryGradient: "linear-gradient(#FFFFFF, #F1F6FD, #F1F6FD, #F7F1FD",
+      },
+    },
   },
   plugins: [],
 };
