@@ -21,6 +21,9 @@ module.exports = {
       lightBlue: "#E5F0FD",
       darkGray: "#2B2B39",
       lightGray: "#656464",
+      transparent: "transparent",
+      pink: "#F04148",
+      yellow: "#FFAF2E",
     },
     container: {
       padding: "15px",
@@ -29,7 +32,8 @@ module.exports = {
     extend: {
       backgroundImage: {
         primaryGradient: "linear-gradient(#FFFFFF, #D4E7FE)",
-        secondaryGradient: "linear-gradient(#FFFFFF, #F1F6FD, #F1F6FD, #F7F1FD",
+        secondaryGradient:
+          "linear-gradient(#FFFFFF, #F1F6FD, #F1F6FD, #F7F1FD)",
       },
     },
   },
